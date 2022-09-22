@@ -36,7 +36,7 @@ plot_df =
      y = 1 + 2 * x ^ 2 + rnorm(n = 1000)
    )
 
-ggplot(plot_df, aes(x = x)) + geom_histogram()
+
 
 ggplot(plot_df, aes(x = x, y = y)) + geom_point()
 ```
@@ -50,7 +50,7 @@ plot_df =
      y = 1 + 2 * x ^ 2 + rnorm(n = 1000)
    )
 
-ggplot(plot_df, aes(x = x)) + geom_histogram()
+
 
 ggplot(plot_df, aes(x = x, y = y)) + geom_point()
 ```
